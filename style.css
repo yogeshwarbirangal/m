@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.header-img img{
+
+    height: auto;
+    max-width: 100%;
+}
+
+header h2{
+    float: right;
+    margin: 15px 15px;
+    color: black;
+    font: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin: 25px 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid ;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: cornflowerblue;
+    
+}
+
+.basic{
+    margin: 50px 50px ;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px solid lightslategray ;
+    padding: 8px;
+    border-radius: 20px;
+   
+    
+
+}
+
+.education{
+    margin: 50px 50px;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px solid lightslategray;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+
+.hobbies{
+    margin: 50px 50px;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px solid lightslategray ;
+    padding: 8px;
+    border-radius: 20px;
+   
+}
+
+.dreams{
+    margin: 50px 50px;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px solid lightslategray ;
+    padding: 8px;
+    border-radius: 20px;
+   
+}
+
+.things{
+    margin: 50px 50px;
+    font-style: italic;
+    font-size: 20px;
+    border: 5px solid lightslategray ;
+    padding: 8px;
+    border-radius: 20px;
+   
+}
+
+.master{
+ 
+ 
+   margin: 20px 20px;
+   padding: 5px 5px;
+   font-size: 50px;
+   text-align: center;
+   background-color: black;
+
+
+}
+
+.master p{
+    font-size: 20px;
+    color: white;
+}
+
+.master span{
+    color: red;
+    font-size: 20px;
+}
+
+@media screen and (max-width:514px)
+{
+        header h2{
+            
+            float: left;
+            margin: 0 15px;
+            color: rgb(8, 8, 8);
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:2.5em;
+        }
+
+        .main ul{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+        }
+
+        ul li{
+
+            padding:10px 20px;
+            margin:10px 0;
+        }
+
+        ul li a{
+
+            color:black;
+            font-size: 1.2em;
+        }
+}
